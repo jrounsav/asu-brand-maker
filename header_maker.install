@@ -1,0 +1,42 @@
+<?php
+  
+  function header_maker_enable(){
+    $contentType = "brand_header";
+    $readableType = "Brand Header";
+    $type = node_type_load($contentType);
+
+    //Verify that the content type has not already been created once for this module
+    if(!$type){
+      $type = array(
+        'type' => $contentType,
+        'name' => t($readableType),
+        'base' => 'node_content',
+        'description' => t("This is a configuration for the ASU Brand Header"),
+        'custom' => 1,
+        'modified' => 1,
+        'locked' => 0,
+      );
+      
+      $type = node_type_set_defaults($type);
+     
+      //Creating Custom Test Field
+      $field = array(
+        'field_name' => 'brand_header_config',
+        'type' => 'text_long',
+        'entity_types' => array('node'),
+      );
+      $field = field_create_field($field);
+      $instance = array(
+        'field_name' => 'brand_header_config',
+        'entity_type' => 'node',
+        'bundle' => 'brand_header',
+        'label' => t('Brand Header Test Field'),
+        'widget' => array('type' => 'text_textarea'),
+      );
+      $instance = field_create_instance($instance);
+      
+      node_type_save($type);
+    }
+    
+  }
+

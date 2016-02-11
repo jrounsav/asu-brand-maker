@@ -1,0 +1,54 @@
+<?php
+
+function header_maker_form_brand_header_node_form_alter(&$form, $form_state, $form_id){
+  if ($form_id == 'brand_header_node_form') {
+    $form['asu_header_maker_ui'] = array(
+      '#prefix' => '<div class="asu-header-builder">',
+      '#suffix' => '</div>', 
+    );
+    $form['asu_header_maker_render'] = array(
+      '#prefix' => '<div class="asu-header-render">',
+      '#suffix' => '</div>', 
+    );
+//    $form['brand_header_config'] = array(
+//      '#type' => 'textarea',
+//      '#resizeable' => TRUE,
+//    );
+    
+    $order = array(
+    'asu_header_maker_render',  
+    'brand_header_node_form',
+    'brand_header_config'
+  );
+ 
+  foreach ($order as $key => $field) {
+    // Set/Reset the field's 
+    // weight to the array key value
+    // from our order array. 
+    $form[$field]['#weight'] = $key;
+  }
+  }
+//  dpm($form);
+  return $form;
+}
+
+function header_maker_preprocess_page(&$vars, $hook){
+  if(isset($vars['page']['content']['system_main']['#form_id'])){
+    $formid = $vars['page']['content']['system_main']['#form_id'];
+    if($formid == "brand_header_node_form"){
+      drupal_add_css(drupal_get_path('module', 'header_maker'). '/css/brand-header-form.css', array('group' => CSS_THEME, 'every_page' => FALSE));
+      drupal_add_css(drupal_get_path('module', 'header_maker'). '/header_prev/css/asu_header.css', array('group' => CSS_THEME, 'every_page' => FALSE));
+      drupal_add_js(array('header_maker' => array('modulePath' => drupal_get_path('module', 'header_maker'))), 'setting');
+      drupal_add_js(drupal_get_path('module', 'header_maker') . '/js/header_maker.js');
+      drupal_add_js(drupal_get_path('module', 'header_maker') . '/js/header_preview.js');
+      drupal_add_js(drupal_get_path('module', 'header_maker') . '/header_prev/js/asu_header.js');
+    }
+  }
+}
+
+function header_maker_node_presave($node){
+//  dpm($node);
+}
+
+// Hook preprocess page add js
+

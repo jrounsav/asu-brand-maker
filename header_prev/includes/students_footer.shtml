@@ -1,0 +1,48 @@
+<!-- START MY ASU FOOTER /afs/asu.edu/www/asuthemes/3.1/includes/my_asu_footer.shtml Update: [KM] 12/10/12-->   
+<div id="my_asu_footer">
+  <div class="block-left">
+    <h2><a href="http://my.asu.edu">My ASU</a></h2>
+    <p><em>Find all your personalized information related to ASU in one place.</em></p>
+  </div>
+	<ul class="menu multicolumn-menu">
+	<li class="expanded first"><a href="https://students.asu.edu/admission">Admission</a><ul class="menu"><li class="leaf first"><a href="https://students.asu.edu/freshman">Freshman</a></li>
+	<li class="leaf"><a href="http://transfer.asu.edu">Transfer</a></li>
+	<li class="leaf"><a href="http://global.asu.edu/future/undergrad">International</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/readmission">Readmission</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/graduate">Graduate</a></li>
+	<li class="leaf"><a href="http://www.law.asu.edu/">Law</a></li>
+	<li class="leaf last"><a href="http://students.asu.edu/counselors">Counselor and Teacher Resources</a></li>
+	</ul></li>
+	<li class="expanded"><a href="https://students.asu.edu/financialaid" title="">Paying for College</a><ul class="menu"><li class="leaf first"><a href="https://students.asu.edu/costs" title="">Costs</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/financialaid">Financial Aid</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/scholarships">Scholarships</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/tuitionandfees">Tuition</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/tuitionandbilling">Billing</a></li>
+	<li class="leaf last"><a href="https://students.asu.edu/residency">Residency</a></li>
+	</ul></li>
+	<li class="expanded"><a href="https://students.asu.edu/academics">Academics</a><ul class="menu"><li class="leaf first"><a href="http://www.asu.edu/programs">Majors</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/registration" title="Registration">Registration</a></li>
+	<li class="leaf"><a href="http://bookstore.asu.edu">ASU Bookstore</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/academic-success">Tutoring &amp; Advising</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/student-records-grades">Records &amp; Grades</a></li>
+	<li class="leaf"><a href="http://catalog.asu.edu">Course Catalog</a></li>
+	<li class="leaf last"><a href="https://students.asu.edu/graduation">Graduation</a></li>
+	</ul></li>
+	<li class="expanded"><a href="https://students.asu.edu/campus-life">Life at ASU</a><ul class="menu"><li class="leaf first"><a href="http://asuevents.asu.edu">ASU Events</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/health-wellness">Health &amp; Wellness</a></li>
+	<li class="leaf"><a href="http://www.asu.edu/housing">Housing &amp; Dining</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/student_involvement" title="">Clubs &amp; Activities</a></li>
+	<li class="leaf"><a href="http://cfo.asu.edu/police" title="">Safety</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/supportservices">Student Support</a></li>
+	<li class="leaf last"><a href="http://cfo.asu.edu/pts" title="">Transportation</a></li>
+	</ul></li>
+	<li class="expanded last"><a href="https://students.asu.edu/jobs-careers">Jobs &amp; Careers</a><ul class="menu"><li class="leaf first"><a href="https://students.asu.edu/career">Career Services</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/career/sdcl">Sun Devil Careerlink</a></li>
+	<li class="leaf"><a href="https://students.asu.edu/employment">Student Employment</a></li>
+	<li class="leaf last"><a href="http://graduate.asu.edu/financing/tara" title="">Graduate Research &amp; Teaching Assistantships</a></li>
+	</ul></li>
+	</ul>
+ 
+<div style="clear:both;"></div>
+</div>
+<!-- END FOOTER -->

@@ -1,0 +1,23 @@
+<!-- START /asuthemes/4.2/heads/default.shtml -->
+<link type="text/css" rel="stylesheet" media="all" href="//www.asu.edu/asuthemes/4.2/css/asu_header.min.css?v0.12" />
+<!--[if IE 9]>
+<style type="text/css">
+#asu_universal_nav ul ul{filter:none;box-shadow:0 6px 6px 0 #999}#asu_universal_nav>ul>li.parent:hover>a{filter:none;box-shadow:6px 0 6px -6px #999,-6px 0 6px -6px #999}
+</style>
+<![endif]-->
+<script type="text/javascript" src="//www.asu.edu/asuthemes/4.2/js/asu_header.min.js?v0.13"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if(typeof ASUHeader.ga == "undefined" || ASUHeader.ga == null){
+	var _gaq = _gaq || [];
+	_gaq.push(['asu._setAccount', 'UA-2392647-1'], ['asu._setDomainName', '.asu.edu']);
+	_gaq.push(['asu._trackPageview']);
+	(function() {
+	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	  ga.src = 'https://ssl.google-analytics.com/ga.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+}
+//--><!]]>
+</script>
+<!-- END /asuthemes/4.2/heads/default.shtml -->
